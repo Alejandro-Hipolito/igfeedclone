@@ -1,0 +1,111 @@
+body{
+    background-color: #DBDBDB;
+    font-family: 'Rubik', sans-serif;
+
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+
+.UP{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    height: 3rem;
+}
+.wrap{
+    height: 34.5rem;
+    width: 40rem;
+    display: block;
+    margin:auto;
+
+
+}
+.container{
+    width: 40rem;
+    height: 34.5rem;
+    background-color: white;
+    
+}
+.first{
+    padding-top: 11px;
+}
+.first::after{
+    content: "1/10";
+    margin-left: 21rem;
+    position: absolute;
+    color: #B2B2B2;
+    font-weight: 100;
+    font-size: 16px;
+}
+.second{
+    padding-top: 11px;
+}
+.second::after{
+    content: "2/10";
+    margin-left: 25.6rem;
+    position: absolute;
+    color: #B2B2B2;
+    font-weight: 100;
+    font-size: 16px;
+}
+.third{
+    padding-top: 11px;
+}
+.third::after{
+    content: "3/10";
+    margin-left: 18rem;
+    position: absolute;
+    color: #B2B2B2;
+    font-weight: 100;
+    font-size: 16px;
+}
+.fourth{
+    padding-top: 11px;
+}
+.fourth::after{
+    content: "4/10";
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 7.1rem;
+    color: #B2B2B2;
+}
+.fifth{
+    padding-top: 11px;
+}
+.fifth::after{
+    content: "5/10";
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 15.6rem;
+    color: #B2B2B2;
+}
+.photo{
+    width: 40rem;
+    height:25rem;
+}
+
+.containerF{
+    width: 200rem;
+    height: 5rem;
+    background-color: aqua;
+
+}
+.foot{
+
+}
